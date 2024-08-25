@@ -1,4 +1,4 @@
-# Credit Card Database (ccdb) Setup
+# Credit Card Data Analysis
 
 This README provides instructions for setting up the `ccdb` database, including the creation of tables and importing data into MySQL. This database consists of two tables: `cc_detail` and `cust_detail`.
 
