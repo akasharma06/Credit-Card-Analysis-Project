@@ -8,6 +8,7 @@ This README provides instructions for setting up the `ccdb` database, including 
 
 To create the database, run the following SQL command:
 
+```sql
 CREATE DATABASE ccdb;
 
 -- 1. Create cc_detail table
