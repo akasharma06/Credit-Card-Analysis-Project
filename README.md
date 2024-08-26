@@ -8,7 +8,6 @@ This README provides instructions for setting up the `ccdb` database, including 
 
 To create the database, run the following SQL command:
 
-```sql
 CREATE DATABASE ccdb;
 
 -- 1. Create cc_detail table
@@ -59,11 +58,10 @@ CREATE TABLE cust_detail (
 
 To load data into the `cc_detail` and `cust_detail` tables using MySQL Workbench, follow these steps:
 
-1. Open MySQL Workbench and connect to your MySQL server.
-2. Right-click on the table (`cc_detail` or `cust_detail`) you want to load data into.
-3. Select 'Table Data Import Wizard' from the context menu.
-4. Follow the prompts to select your CSV file and map the CSV columns to the table columns.
-5. Repeat these steps for each table with the corresponding CSV file.
+1. Right-click on the table (`cc_detail` or `cust_detail`) you want to load data into.
+2. Select 'Table Data Import Wizard' from the context menu.
+3. Follow the prompts to select your CSV file and map the CSV columns to the table columns.
+4. Repeat these steps for each table with the corresponding CSV file.
 
 Note: Ensure that the CSV files match the column names and data types specified in the table schemas to avoid import errors.
 
